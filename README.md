@@ -1,4 +1,4 @@
-#Supported tags and respective Dockerfile links
+# Supported tags and respective Dockerfile links
 
 - [`0.1.0`, `0.1.0` (*0.1.0/Dockerfile*)](https://github.com/Accenture/adop-outer-proxy/blob/master/Dockerfile)
 
@@ -15,9 +15,9 @@ docker run --name <your-container-name> -e TARGET=<hostname or ip address of ado
 after the above proxy will be available at: http://localhost:80
 
 # License
-Please view [licence information](https://github.com/Accenture/adop-outer-proxy/blob/master/LICENSE.md) for the software contained on this image.
+Please view [license information](https://github.com/Accenture/adop-outer-proxy/blob/master/LICENSE.md) for the software contained on this image.
 
-#Supported Docker versions
+# Supported Docker versions
 
 This image is officially supported on Docker version 1.10.
 Support for older versions (down to 1.6) is provided on a best-effort basis.
