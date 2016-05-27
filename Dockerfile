@@ -1,7 +1,7 @@
-FROM accenture/adop-base-proxy:0.1.0
+FROM accenture/adop-base-proxy:0.2.0
 
-ENV RUN_USER            proxy
-ENV RUN_GROUP           proxy
+ENV RUN_USER  proxy
+ENV RUN_GROUP proxy
 
 ADD servers/sites-enabled /usr/local/nginx/sites-enabled/
 
@@ -16,6 +16,3 @@ EXPOSE 80 443
 WORKDIR /usr/local/nginx
 
 CMD sh /run.sh
-
-
-
