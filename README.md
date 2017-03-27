@@ -8,9 +8,9 @@ adop-outer-proxy is used to proxy the ADOP Proxy when public/private network seg
 
 # How to use this image
 
-The easiest for to run swarm-proxy image is as follow:
+The easiest way to run adop-outer-proxy image is as follows:
 ```
-docker run --name <your-container-name> -e TARGET=<hostname or ip address of adop proxy> -e SWARM_MASTER_HOST=<hostname or  ip address of swarm master> -e SWARM_MASTER_PORT=<port on which swarm master is listening> -d -p 80:80 adop/adop-outer-proxy:VERSION
+docker run --name <your-container-name> -e TARGET=<hostname or ip address of adop proxy> -d -p 80:80 accenture/adop-outer-proxy:VERSION
 ```
 after the above proxy will be available at: http://localhost:80
 
