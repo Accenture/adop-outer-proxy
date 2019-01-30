@@ -1,4 +1,4 @@
-FROM accenture/adop-base-proxy:0.2.0
+FROM accenture/adop-base-proxy:0.3.0
 
 ENV RUN_USER  proxy
 ENV RUN_GROUP proxy
